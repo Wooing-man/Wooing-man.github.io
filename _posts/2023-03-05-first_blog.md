@@ -2,6 +2,7 @@
 layout: single
 title: "[Blog] 첫 번째 블로그"
 categories: "blog"
+tag: "blog"
 ---
 
 # 처음 블로그 만들기
