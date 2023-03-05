@@ -1,13 +1,19 @@
 ---
 layout: single
 title: "[Blog] 첫 번째 블로그"
-categories: "blog"
-tag: "blog"
+categories:
+    - github blog
+tags: 
+    - "blog"
+
 toc: true
 toc_sticky : true
+
 author_profile: false
 sidebar:
     nav: "docs"
+
+last_modified_at:
 ---
 
 # 처음 블로그 만들기
