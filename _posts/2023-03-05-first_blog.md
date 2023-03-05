@@ -6,6 +6,8 @@ tag: "blog"
 toc: true
 toc_sticky : true
 author_profile: false
+sidebar:
+    nav: "docs"
 ---
 
 # 처음 블로그 만들기
