@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "첫 포스팅"
+title: "[Blog] 첫 번째 블로그"
+categories: "blog"
 ---
 
 # 처음 블로그 만들기
