@@ -21,5 +21,5 @@ last_modified_at:
 
 이미지 삽입 테스트
 
-![image-20230305175516165](../images/2023-03-05-first_blog/image-20230305175516165.png)
+![image-20230305175516165]({{site.url}}/images/2023-03-05-first_blog/image-20230305175516165.png)
 
