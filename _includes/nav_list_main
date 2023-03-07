@@ -12,6 +12,16 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 -->
+
+        <span class="nav__sub-title">Paper</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "paper" %}
+                        <li><a href="/categories/paper" class="">Paper ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        
         <span class="nav__sub-title">Github blog</span>
             <ul>
                 {% for category in site.categories %}
