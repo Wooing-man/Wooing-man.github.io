@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "[Blog] 첫 번째 블로그"
+title: "[블로그 만들기 (테스트)] 만든 블로그를 확인하기 위함"
 categories:
     - github blog
 tags: 
-    - "blog"
+    - ["블로그", "테스트"]
 
 toc: true
 toc_sticky : true
