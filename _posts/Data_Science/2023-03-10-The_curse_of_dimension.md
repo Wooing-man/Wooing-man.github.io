@@ -23,4 +23,18 @@ last_modified_at:
 
 ## 차원의 저주
 
-- 데이터 학습을 위해 
+- 데이터 학습을 위해 <span style='color: red'>차원이 증가</span>하면서 학습데이터 수가 
+
+
+
+
+
+
+
+
+
+---
+
+# 참고 자료
+
+- [차원의 저주 (The curse of dimensionality)](https://datapedia.tistory.com/15)
