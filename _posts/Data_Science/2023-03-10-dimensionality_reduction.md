@@ -12,13 +12,11 @@ toc_sticky : true
 author_profile: false
 sidebar:
     nav: "docs"
-use_math: true
 
 last_modified_at:
 ---
 
-
-# 
+# 차원 축소를 위한 알고리즘 : PCA, T-SNE, UMAP
 
 ----
 
