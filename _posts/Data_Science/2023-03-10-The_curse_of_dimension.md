@@ -30,7 +30,7 @@ last_modified_at:
 
 ![image](https://blog.kakaocdn.net/dn/6g8f5/btqv0yFthYE/NqRQzG0fTTuhYxeCJe865k/img.png)
 
-*출처: 차원의 저주(The curse of dimension)* 블로그
+<center> [출처:차원의 저주(The curse of dimension) 블로그](https://wooing-man.github.io/dimensionality%20reduction/The_curse_of_dimension/) <center>
 
 </br>
 
