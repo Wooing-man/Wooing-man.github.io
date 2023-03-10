@@ -4,7 +4,7 @@ title: "[차원 축소] 차원축소 방법 종류별 비교"
 categories:	
     - dimensionality reduction
 tags:
-    - ['차원축소', '비지도학습']
+    - ['차원축소', '데이터 전처리', '데이터 엔지니어링', '알고리즘']
 
 toc: true
 toc_sticky : true
@@ -32,7 +32,15 @@ last_modified_at:
 
 
 
+
+
+
+
 <u>이번 포스팅에는 특징 추출에 대해서만 다루고 있음</u>
+
+
+
+
 
 # 차원 축소 알고리즘 (Dimension reduction algorithm)
 
@@ -44,6 +52,10 @@ last_modified_at:
     - UMAP (Uniform Manifold Approximation and Projection)
 
 
+
+## PCA
+
+- 
 
 
 
@@ -57,11 +69,7 @@ last_modified_at:
 
 # 참고 자료
 
-- 위키백과 : https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%9B%90_%EC%B6%95%EC%86%8C_(%ED%86%B5%EA%B3%84%ED%95%99)
-- 차원 축소 (Dimension Reduction) - PCA, LDA : https://casa-de-feel.tistory.com/19
-- 차원 축소 알고리즘을 비교해보자 (PCA, T-sne, UMAP) : https://velog.io/@stella_y/%EC%B0%A8%EC%9B%90-%EC%B6%95%EC%86%8C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EB%B9%84%EA%B5%90%ED%95%B4%EB%B3%B4%EC%9E%90-PCA-T-sne-UMAP
-
-
-
-
+- [위키백과 PCA편](https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%9B%90_%EC%B6%95%EC%86%8C_(%ED%86%B5%EA%B3%84%ED%95%99))
+- [차원 축소 (Dimension Reduction) - PCA, LDA]( https://casa-de-feel.tistory.com/19)
+- [차원 축소 알고리즘을 비교해보자 (PCA, T-sne, UMAP)](https://velog.io/@stella_y/%EC%B0%A8%EC%9B%90-%EC%B6%95%EC%86%8C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EB%B9%84%EA%B5%90%ED%95%B4%EB%B3%B4%EC%9E%90-PCA-T-sne-UMAP)
 
