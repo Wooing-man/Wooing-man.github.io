@@ -33,8 +33,9 @@ last_modified_at:
 <br/>
 
  <center><u>이번 포스팅에는 특징 추출에 대해서만 다루고 있음</u><center>
-
 <br/>
+
+
 
 # 차원 축소 알고리즘 (Dimension reduction algorithm)
 
