@@ -9,13 +9,7 @@ main:
 
 
 docs:
-  - title: "대목차1"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-  - title: "대목차2"
+  - title: "우잉남의 블로그"
     children:
       - title: "Category"
         url: /categories/
