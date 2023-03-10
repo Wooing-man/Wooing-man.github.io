@@ -10,6 +10,9 @@ toc: true
 toc_sticky : true
 
 author_profile: false
+sidebar:
+    nav: "docs"
+use_math: true
 
 last_modified_at:
 ---
