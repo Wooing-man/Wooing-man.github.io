@@ -22,6 +22,11 @@
                         <li><a href="/categories/evaluation" class="">평가지표 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "dimensionality reduction" %}
+                        <li><a href="/categories/dimensionality_reduction" class="">차원 축소 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
 
         <span class="nav__sub-title">Paper</span>
