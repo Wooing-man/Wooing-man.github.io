@@ -38,12 +38,12 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
+            
         <span class="nav__sub-title">Statistic</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "statistic" %}
-                        <li><a href="/categories/paper" class="">통계 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/statistic" class="">통계 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -56,7 +56,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        
+
         <span class="nav__sub-title">Github blog</span>
             <ul>
                 {% for category in site.categories %}
