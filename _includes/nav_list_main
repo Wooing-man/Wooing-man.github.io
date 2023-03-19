@@ -48,6 +48,15 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">Optimization</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "optimization" %}
+                        <li><a href="/categories/optimization" class="">최적화 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Paper</span>
             <ul>
                 {% for category in site.categories %}
