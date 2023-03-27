@@ -23,13 +23,18 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
+                    {% if category[0] == "nlp" %}
+                        <li><a href="/categories/nlp" class="">자연어처리 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
                     {% if category[0] == "clustering" %}
                         <li><a href="/categories/clustering" class="">클러스터링 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
                     {% if category[0] == "dimensionality reduction" %}
-                        <li><a href="/categories/dimensionality_reduction" class="">차원 축소 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/dimensionality_reduction" class="">차원축소 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
