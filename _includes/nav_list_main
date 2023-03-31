@@ -42,6 +42,11 @@
                         <li><a href="/categories/evaluation" class="">평가지표 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "data collection" %}
+                        <li><a href="/categories/data_collection" class="">데이터 수집 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
             
         <span class="nav__sub-title">Statistic</span>
