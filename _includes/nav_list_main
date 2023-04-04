@@ -76,6 +76,25 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">Transcription</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "competition reference" %}
+                        <li><a href="/categories/competition_reference" class="">필사 참고 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "classification" %}
+                        <li><a href="/categories/classification" class="">분류 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "regression" %}
+                        <li><a href="/categories/regression" class="">회귀 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Github blog</span>
             <ul>
                 {% for category in site.categories %}
