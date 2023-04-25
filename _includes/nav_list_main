@@ -28,6 +28,11 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
+                    {% if category[0] == "anomaly detection" %}
+                        <li><a href="/categories/anomaly_detection" class="">이상탐지 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
                     {% if category[0] == "clustering" %}
                         <li><a href="/categories/clustering" class="">클러스터링 ({{category[1].size}})</a></li>
                     {% endif %}
@@ -95,11 +100,21 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Github blog</span>
+        <span class="nav__sub-title">Check</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "github blog" %}
-                        <li><a href="/categories/blog" class="">블로그 만들기 ({{category[1].size}})</a></li>
+                    {% if category[0] == "blog" %}
+                        <li><a href="/categories/blog" class="">블로그 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "colab" %}
+                        <li><a href="/categories/colab" class="">코랩 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "pytorch" %}
+                        <li><a href="/categories/pytorch" class="">파이토치 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
