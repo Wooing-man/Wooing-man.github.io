@@ -28,6 +28,11 @@
                     {% endif %}
                 {% endfor %}
                 {% for category in site.categories %}
+                    {% if category[0] == "cv" %}
+                        <li><a href="/categories/cv" class="">컴퓨터비전 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
                     {% if category[0] == "anomaly detection" %}
                         <li><a href="/categories/anomaly_detection" class="">이상탐지 ({{category[1].size}})</a></li>
                     {% endif %}
