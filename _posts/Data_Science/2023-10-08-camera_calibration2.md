@@ -3,7 +3,6 @@ layout: single
 title: "[컴퓨터비전] 카메라 캘리브레이션 (영상의 기하학적 해석)"
 categories:	
     - cv
-    - deep learning
 tags:
     - ['딥러닝', '비전', '전처리']
 
