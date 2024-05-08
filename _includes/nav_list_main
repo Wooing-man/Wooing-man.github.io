@@ -12,6 +12,15 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 -->
+        <span class="nav__sub-title">HOME</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "home" %}
+                        <li><a href="/categories/home" class="">우잉남 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">AI</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
